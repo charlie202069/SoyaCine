@@ -1,0 +1,295 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background: linear-gradient(0deg, white,gray,black)
+}
+/*BANNER*/
+header img {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    border-radius: 10px ;
+} 
+
+/*MENU */
+nav{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: cornflowerblue;
+    box-shadow: 7px 13px  37px #000 ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(71, 4, 255)), color-stop(1, rgb(40, 40, 40)));
+    background: -moz-linear-gradient(center top, rgb(100, 100, 100) 20%, rgb(40,40,40) 100%);
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    list-style: none;
+    margin: -5px;
+    padding: 10px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 10px 117px;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white  ;
+    border-radius: 15px;
+}
+
+
+/*CONTENEDOR PRIMARIO*/
+.contenedor{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    background: linear-gradient(0deg,#ace3e9,#498dd9,#430ef1 );
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 15px;
+    box-shadow: 7px 13px  37px #000 ;
+  
+    
+}
+
+.contenedor img{
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 200px;
+    float: left;
+}
+
+.contenedor h2{
+    transition: 10s;
+    color: white;
+}
+
+h1{
+    padding: 20px;
+    margin:5px;
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+h1:hover{
+    transition: 2s;
+    transform: scale(1.2);
+    color: #FFF;
+}
+
+h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 20px;
+    
+    
+}
+h2:hover{
+    transition: 3s;
+    color: black;
+}
+
+P{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+.animacion img{
+    cursor: pointer;
+	transition: transform 1.5s;
+	-webkit-transition: -webkit-transform 1.5s;
+	-moz-transition: -moz-transform 1.5s;
+	-o-transition: -o-transform 1.5s;
+	-webkit-transition: all 1.5s;
+	-moz-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+.animacion:hover img{
+    transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+	-moz-transform: scale(1.12);
+	-o-transform: scale(1.12);
+	border-radius: 20px;
+}
+/*PIE DE PAGINA*/
+footer{
+    margin: 0px;
+    padding: 0px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(59, 10, 173)), color-stop(1, rgb(40, 40, 40)));
+	background: -moz-linear-gradient(center top, rgb(100, 100, 100) 20%, rgb(40,40,40) 100%);
+    color: white; 
+    box-shadow: 7px 13px  37px #000 ;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.pie img{
+
+padding-left: 30px;
+padding-right: 30px;
+height: 80px;
+display: inline-block;
+
+}
+.pie img:hover{
+    transition: 2.5s;
+    transform: scale(1.15);
+
+}
+
+.pie p{
+    padding: 0px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: blanchedalmond;
+   
+}
+
+
+/*VIDEO*/
+.contenedor video{
+    margin-left: 25%;
+    margin-top: 20px;
+  
+}
+
+
+/*AUDIO*/
+.audio{
+    margin-left: 37%;
+    margin-top: 20px;
+}
+
+
+/*LETRA CANCION*/
+.au p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*FORMULARIO*/
+.contenedor .re{
+    margin: 5px;
+    margin-left: 30%;
+    padding: 10px;
+    background-color: #0F2C87;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 7px 13px  37px #000 ;
+}
+
+.re{
+    margin-top: 80px;
+    padding-top: 40px;
+}
+h3{
+    text-align: center;
+    font-weight: 500;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+}
+h3:hover{
+    transition: 3s;
+    color: black;
+}
+
+.controls{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: wheat solid;
+    box-shadow: 7px 7px  7px #000 ;
+    background:#0F2C85 ;
+   
+}
+
+ h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+}
+h4:hover{
+    
+    text-transform: capitalize;
+}
+.re p{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+.re p a{
+    text-decoration: none;
+    color: white;
+}
+
+.re p a:hover{
+    text-decoration: underline;
+}
+
+
+/*BOTON*/
+.voto {
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: blUE;
+     font-size: 12px;
+     margin-left: 40%;
+     box-shadow: 7px 7px  7px #000 ;
+}
+
+/*Tabla de noticias*/
+
+#equipos {
+	margin: 30px;
+	background-color: #b9c9fe;
+	color: #039;
+	font-size: 13pt;
+    border-collapse: collapse;
+    box-shadow: 7px 7px  7px #000 ;
+}
+#equipos th {
+  background-color: rgba(13,71,161,1);
+  padding: 10px;
+  color: white;
+
+
+}
+#equipos td{
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver ;
+	padding:15px;
+}
+
